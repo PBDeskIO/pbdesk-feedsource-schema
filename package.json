@@ -1,6 +1,6 @@
 {
   "name": "pbdesk-schema-feedsource",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Feed Source Schema",
   "main": "index.js",
   "scripts": {
