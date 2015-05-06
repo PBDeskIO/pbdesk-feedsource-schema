@@ -1,15 +1,13 @@
+var mongoose = require( 'mongoose' );
 
+ var feedSourceSchema = require('./feedSource.schema');
+ var feedFormats = require('./feedFormat');
+ var feedCategories = require('./feedCategory');
 
-    var mongoose = require( 'mongoose' );
+ module.exports.model =  mongoose.model('feedSource', feedSourceSchema);
+ module.exports.feedFormats = feedFormats;
+ module.exports.feedCategories = feedCategories; 
+     
 
-    var feedSourceSchema = require('./feedSource.schema');
-    var feedFormats = require('./feedFormat');
-    var feedCategories = require('./feedCategory');
-
-    module.exports = {
-        feedSource: mongoose.model('feedSource', feedSourceSchema),
-        feedFormats: feedFormats,
-        feedCategories: feedCategories
-    };
 
 
