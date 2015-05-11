@@ -1,3 +1,3 @@
-
-    module.exports = require('./models');
-
+module.exports = function(mongoose){
+    return require('./models')(mongoose);
+}
