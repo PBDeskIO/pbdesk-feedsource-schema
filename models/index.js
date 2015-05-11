@@ -4,7 +4,7 @@ var mongoose = require( 'mongoose' );
  var feedFormats = require('./feedFormat');
  var feedCategories = require('./feedCategory');
 
- module.exports.model =  mongoose.model('feedSource', feedSourceSchema);
+ module.exports.feedSourceModel =  mongoose.model('FeedSource', feedSourceSchema);
  module.exports.feedFormats = feedFormats;
  module.exports.feedCategories = feedCategories; 
      
