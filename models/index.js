@@ -5,10 +5,3 @@ module.exports = function (mongoose) {
         feedCategories: require('./feedCategory')
     };
 }
-
-
-
-     
-
-
-
