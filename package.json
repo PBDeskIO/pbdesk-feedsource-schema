@@ -1,6 +1,6 @@
 {
-  "name": "pbdesk-schema-feedsource",
-  "version": "0.0.4",
+  "name": "pbdesk-feedsource-schema",
+  "version": "0.0.5",
   "description": "Feed Source Schema",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PBDeskIO/pbdesk-schema-feedsource.git"
+    "url": "https://github.com/PBDeskIO/pbdesk-feedsource-schema.git"
   },
   "author": "Pinal Bhatt <self@pbdesk.io>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PBDeskIO/pbdesk-schema-feedsource/issues"
+    "url": "https://github.com/PBDeskIO/pbdesk-feedsource-schema/issues"
   },
-  "homepage": "https://github.com/PBDeskIO/pbdesk-schema-feedsource",
+  "homepage": "https://github.com/PBDeskIO/pbdesk-feedsource-schema",
   "dependencies": {
-    "mongoose": "^4.0.2"
+    "mongoose": "^4.0.3"
   }
 }
